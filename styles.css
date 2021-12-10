@@ -48,13 +48,14 @@ header {
 
 h1 {
     font-size: 3em;
-    line-height: 2em;
+    line-height: 10rem;
     text-transform: uppercase;
     margin: 0 0px;
     padding-top: 8rem;
     text-align: center;
     color:rgb(255, 255, 255);
-    text-shadow: rgba(0,0,0,.2);
+    text-shadow: 2px 2px 4px black;
+
     
     /*
     -webkit-text-stroke: 2px;
@@ -67,6 +68,8 @@ h2 {
   margin: 0 0 5rem 0;
   text-align: center;
   color:rgb(255, 255, 255);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 2px 2px 4px black;
 }
 
 
@@ -78,8 +81,34 @@ h3 {
     justify-content: center;
     font-size: 19px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
 }
+
+
+
+h4 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 19px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+h5 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width:100%;
+    font-size: 16px;
+    width:100%;
+   
+ }
+
+
+
+
 
 
 
@@ -382,7 +411,6 @@ ul li a:hover {
     justify-content: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
-
 }
 
 
@@ -577,8 +605,6 @@ ul li a:hover {
 
 
 
-
-
 .bg-prestations {
 
     background-color : rgb(255, 255, 255);
@@ -590,14 +616,9 @@ ul li a:hover {
 
 
 
-
-
 .paragraphe {
     padding: 3rem 0 0 0;
 }
-
-
-
 
 
 
@@ -718,6 +739,9 @@ ul li a:hover {
     transform: scale(1.08);
     background-image :url("assets/img/realDouche3.jpg");
   }
+
+
+
 
 
 .containerItemRealisations2 {
@@ -1164,17 +1188,6 @@ flex-direction: row;
 
 
 
-     h4 {
-         display: flex;
-         flex-wrap: wrap;
-         flex-direction: row;
-         width:100%;
-         font-size: 16px;
-         width:100%;
-        
-      }
-
-
 
 
 
@@ -1312,12 +1325,11 @@ hr.divider {
     
     
     
-    .imgLogo {
+    .imgLogo2 {
         height: auto;
         max-width:400px;
         background-color : rgb(255, 255, 255);
         padding : 0rem;
-        /* background-image :url("img/fondNoirBleu2.webp"); */
         margin: 12rem 0rem 0 0rem;
         color: white;
     }
@@ -1514,13 +1526,27 @@ p {
 
 .itemPrestations {
     height: auto;
-    max-width:120px;
+    max-width:180px;
     background-color : rgb(243, 243, 243);
     padding : 0rem 1rem 0 1rem;
     margin: 0.5rem;
     text-align : center;
     transition: transform .2s;
 }
+
+
+h3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
 
 
 
@@ -1534,6 +1560,11 @@ p {
 .containerItemRealisations4 {
     display: none;
 }
+
+
+
+
+
 
 
 
@@ -1567,6 +1598,28 @@ p {
 }
 
 
+
+
+
+
+
+.containerAbout {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+}
+
+
+
+
+
+
+
+
+
 .imgZone {
     height: auto;
     max-width:500px;
@@ -1591,18 +1644,134 @@ p {
 
 
 
+.containerPrestations {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-bottom: 10rem;
+    width:100%;
+
+}
+
+.itemPrestations {
+    height: auto;
+    max-width:150px;
+    background-color : rgb(243, 243, 243);
+    padding : 0rem 1rem 0 1rem;
+    margin: 0.5rem;
+    text-align : center;
+    transition: transform .2s;
+}
+
+
+
+
+
+
+
+.containerRealisations1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 0rem;
+    width: 100%;
+}
+
+
+.containerRealisations2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    width: 100%;
+    margin: 2rem 0 0 0;
+}
+
+
+
+
+
+.containerItemRealisations1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding : 5rem 0rem 0rem 0rem;
+    width:100%;
+
+    height: 300px;
+    max-width:500px;
+    background-image :url("assets/img/realDouche.png");
+    background-size: 100%;
+    background-repeat:no-repeat;
+    margin: 2rem 3rem 2rem 4rem;
+    text-align : center;
+    /* box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2); */
+}
+
+.zoom1 {
+    padding: 0px;
+    transition: transform .3s;
+  }
+  
+  .zoom1:hover {
+    transform: scale(1.08);
+    background-image :url("assets/img/realDouche3.jpg");
+  }
+
+
+
+.containerItemRealisations2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding : 0rem 0rem 2rem 0rem;
+    width: 100%;
+
+    height: 300px;
+    max-width:500px;
+    background-image :url("assets/img/realMur.png");
+    background-size: 100%;
+    background-repeat:no-repeat;
+    margin: 0rem 3rem 0rem 4rem;
+    text-align : center;
+    /* box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2); */
+}
+
+.zoom2 {
+    padding: 0px;
+    transition: transform .3s;
+  }
+  
+  .zoom2:hover {
+    transform: scale(1.08);
+    background-image :url("assets/img/realMur3.jpg");
+  }
+
+
+
+
+
+
 
     .titreRealisations {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: center;
-        padding-top: 8rem;
-        padding-bottom: 1rem;
+        padding-top: 10rem;
+        padding-bottom: 2rem;
         margin: 0rem 2rem 0rem 0rem;
         width:100%;
         font-size: 25px;
-        width:100%;
+        text-align :center;
         /* background-color : rgb(255, 230, 217); */
     }
 
