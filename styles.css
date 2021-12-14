@@ -608,7 +608,6 @@ ul li a:hover {
 .bg-prestations {
 
     background-color : rgb(255, 255, 255);
-
 }
 
 
@@ -648,7 +647,6 @@ ul li a:hover {
 }
 
 
-
 .containerTitrePointsForts {
     display: flex;
     flex-wrap: wrap;
@@ -660,7 +658,6 @@ ul li a:hover {
     font-size: 28px;
     width:100%;
 }
-
 
 
 .titrePointsForts {
@@ -679,7 +676,6 @@ ul li a:hover {
 }
 
 
-
 .itemTitrePointsForts {
     
     height: auto;
@@ -689,13 +685,12 @@ ul li a:hover {
 }
 
 
-
 .itemPointsForts {
     height: auto;
     max-width:120px;
     background-color:#ffffffd8;
     padding : 1rem 10rem 4rem 10rem;
-    margin : 4rem 8rem 3rem 8rem;
+    margin : 4rem 9rem 3rem 9rem;
     color: rgb(0, 0, 0);
     font-size: 1.6rem;
 }
@@ -793,7 +788,7 @@ ul li a:hover {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    padding-top: 4rem;
+    padding-top: 1rem;
     padding-bottom: 0rem;
     width: 100%;
 
@@ -847,12 +842,12 @@ ul li a:hover {
     padding : 5rem 0rem 0rem 0rem;
     width:100%;
 
-    height: 432px;
-    max-width:600px;
+    height: 382px;
+    max-width:550px;
     background-image :url("assets/img/realDouche.png");
     background-size: 100%;
     background-repeat:no-repeat;
-    margin: 0rem 3rem 2rem 4rem;
+    margin: 0rem 3rem 2rem 1rem;
     text-align : center;
     /* box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2); */
 }
@@ -879,12 +874,12 @@ ul li a:hover {
     padding : 5rem 0rem 0rem 0rem;
     width: 100%;
 
-    height: 432px;
-    max-width:600px;
+    height: 382px;
+    max-width:550px;
     background-image :url("assets/img/realMur.png");
     background-size: 100%;
     background-repeat:no-repeat;
-    margin: 0rem 3rem 2rem 4rem;
+    margin: 0rem 3rem 2rem 1rem;
     text-align : center;
     /* box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2); */
 }
@@ -911,12 +906,12 @@ ul li a:hover {
     padding : 5rem 0rem 0rem 0rem;
     width:100%;
 
-    height: 432px;
-    max-width:600px;
+    height: 382px;
+    max-width:550px;
     background-image :url("assets/img/realMeubleB.png");
     background-size: 100%;
     background-repeat:no-repeat;
-    margin: 0rem 3rem 2rem 4rem;
+    margin: 0rem 3rem 2rem 1rem;
     text-align : center;
     /* box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2); */
 }
@@ -943,12 +938,12 @@ ul li a:hover {
     padding : 5rem 0rem 0rem 0rem;
     width:100%;
 
-    height: 432px;
-    max-width:600px;
+    height: 382px;
+    max-width:550px;
     background-image :url("assets/img/realPlomberie.jpg");
     background-size: 100%;
     background-repeat:no-repeat;
-    margin: 0rem 3rem 2rem 4rem;
+    margin: 0rem 3rem 2rem 1rem;
     text-align : center;
     /* box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2); */
 }
@@ -977,8 +972,8 @@ ul li a:hover {
     padding : 0rem 0rem 0 0;
     width: 100%;
 
-    height: 396px;
-    max-width:800px;
+    height: 382px;
+    max-width:700px;
     padding : 5rem 0rem 0rem 0rem;
     background-color : rgb(255, 246, 241);
     background-image :url("assets/img/renoFenetre.jpg");
@@ -1317,7 +1312,7 @@ flex-direction: row;
     
 
 
-
+/* MENTIONS LEGALES */
 
 
   .legalCookies {
@@ -1334,6 +1329,7 @@ flex-direction: row;
     color: grey;
     transition: 0s;
 }
+
 
 
 
@@ -1363,8 +1359,6 @@ flex-direction: row;
     color : black;
 }
 
-
-
 .text-white {
     color : rgb(255, 255, 255);
 }
@@ -1377,10 +1371,7 @@ flex-direction: row;
 
 
 
-
-
-
-
+/* DIVIDER */
 
 
 hr.divider {
@@ -1404,6 +1395,61 @@ hr.divider {
 
 
 
+  /* MENTIONS LEGALES PAGE */
+
+
+  .bg-mentionsLegales {
+
+    background-color : rgb(255, 255, 255);
+}
+
+  .containerMentionsLegales {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: start;
+    padding-top: 5rem;
+    padding-bottom: 12rem;
+    width:75%;
+}
+
+.titreMentionsLegales {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10rem;
+    padding-bottom: 1rem;
+    width:100%;
+    font-size: 35px;
+    width:100%;
+}
+
+
+.titreSectionMentionsLegales {
+    font-size: 26px;
+    margin: 0rem 0rem 1rem 25rem;
+    font-weight:bold;
+}
+
+
+.paragraphe {
+    text-align: center;
+    margin: 0rem 2rem 0rem 2rem;
+}
+
+.texteML {
+    text-align: start;
+    color:rgb(51, 51, 51);
+    margin: 2rem 2rem 0rem 25rem;
+    line-height: 4rem;
+}
+
+
+.gitHub {
+color: rgb(83, 83, 83);
+font-size: 18px
+}
 
 
 
@@ -1448,6 +1494,32 @@ hr.divider {
 
 
 
+    .containerPrestations {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        /* background-color:#ffffff; */
+        padding-top: 4rem;
+        padding-bottom: 10rem;
+        width:100%;
+    
+    }
+    
+    
+    .itemPrestations {
+        height: auto;
+        max-width:280px;
+        background-color : rgb(243, 243, 243);
+        padding : 1rem 2rem 0 2rem;
+        margin: 2rem;
+        text-align : center;
+        transition: transform .2s;
+        box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2);
+    }
+
+
+
 }
 
 
@@ -1473,7 +1545,7 @@ display: none;
 
 
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1400px) {
 
 
 
@@ -1501,8 +1573,6 @@ p {
 
 
 
-
-
 .containerPrestations {
     display: flex;
     flex-wrap: wrap;
@@ -1511,14 +1581,14 @@ p {
     /* background-color:#ffffff; */
     padding-top: 4rem;
     padding-bottom: 10rem;
-    width:90%;
+    width:95%;
 
 }
 
 
 .itemPrestations {
     height: auto;
-    max-width:230px;
+    max-width:300px;
     background-color : rgb(243, 243, 243);
     padding : 1rem 2rem 0 2rem;
     margin: 2rem;
@@ -1689,14 +1759,26 @@ p {
 
 
 
+.containerPrestations {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    /* background-color:#ffffff; */
+    padding-top: 4rem;
+    padding-bottom: 10rem;
+    width:95%;
+}
+
 .itemPrestations {
     height: auto;
-    max-width:200px;
+    max-width:210px;
     background-color : rgb(243, 243, 243);
-    padding : 0rem 1rem 0 1rem;
-    margin: 0.5rem;
+    padding : 1rem 2rem 0 2rem;
+    margin: 2rem;
     text-align : center;
     transition: transform .2s;
+    box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2);
 }
 
 
@@ -1767,12 +1849,9 @@ h3 {
 
 
 
-
 .mobileFont {
     font-size: 15px;
 }
-
-
 
 
 
@@ -1786,10 +1865,6 @@ h3 {
     padding-top: 0rem;
     padding-bottom: 2rem;
 }
-
-
-
-
 
 
 
@@ -1813,8 +1888,6 @@ h3 {
     margin: 4rem;
     background-color: rgba(255, 255, 255, 0.911);
 }
-
-
 
 
 
@@ -1844,8 +1917,6 @@ h3 {
 
 
 
-
-
 .containerRealisations1 {
     display: flex;
     flex-wrap: wrap;
@@ -1867,9 +1938,6 @@ h3 {
     width: 100%;
     margin: 0rem 0 0 0;
 }
-
-
-
 
 
 .containerItemRealisations1 {
@@ -2000,10 +2068,6 @@ h3 {
 
 
 
-
-
-
-
     .titreRealisations {
         display: flex;
         flex-wrap: wrap;
@@ -2020,24 +2084,20 @@ h3 {
 
 
 
-
-
-
     .informations {
         display: none;
     }
 
 
 
-
     .mentionsLegales {
         color: black;
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .legalCookies {
         color: black;
-        font-size: 15px;
+        font-size: 13px;
     }
 
 
@@ -2111,10 +2171,6 @@ opacity: 0.5;
     opacity: 1;
     transform: rotateZ(-0deg);
   }
-
-
-
-
 
 
 
