@@ -141,7 +141,6 @@ h5 {
 
 
 
-
 /* NAV 2 */
 
 
@@ -1530,44 +1529,43 @@ font-size: 18px
 
 @media screen and (width>1200px) {
 
-#mySidenav {
-display: none;
-}
-
-#main {
- display: none;
-}
-
-}
-
-
-
-
-
-
-@media screen and (max-width:1400px) {
-
-
-
-p {
-    margin: 0rem 1rem 0 1rem;
-}
-
-
-.paragraphe {
-    text-align: center;
-    margin: 0rem 2rem 0rem 2rem;
-}
-
-
-.navFlex {
-    display:none;
-}
-
-
-.texteAbout {
-    margin: 2rem 1rem 0rem 1rem;
-}
+    #mySidenav {
+    display: none;
+    }
+    
+    #main {
+     display: none;
+    }
+    
+    }
+    
+    
+    
+    
+    
+    
+    @media screen and (max-width:1200px) {
+    
+    
+    .navFlex {
+           display:none;
+    }
+    
+    
+    p {
+        margin: 0rem 1rem 0 1rem;
+    }
+    
+    
+    .paragraphe {
+        text-align: center;
+        margin: 0rem 2rem 0rem 2rem;
+    }
+    
+    
+    .texteAbout {
+        margin: 2rem 1rem 0rem 1rem;
+    }
 
 
 
@@ -1596,9 +1594,6 @@ p {
     transition: transform .2s;
     box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2);
 }
-
-
-
 
 
 
@@ -1659,7 +1654,6 @@ p {
 }
 
 
-
 .containerItemRealisations4 {
     display: flex;
     flex-wrap: wrap;
@@ -1677,6 +1671,7 @@ p {
     margin: 1rem 4rem 1rem 4rem;
     text-align : center;
 }
+
 
 
 .containerRealisations2 {
@@ -1714,12 +1709,7 @@ p {
 
 
 
-
-
-
 @media screen and (max-width:980px) {
-
-
 
 
 
@@ -2041,7 +2031,7 @@ h3 {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    padding : 0rem 0rem 2rem 0rem;
+    padding : 0rem 0rem 0rem 0rem;
     width: 100%;
 
     height: 300px;
