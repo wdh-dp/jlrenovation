@@ -1559,8 +1559,12 @@ display: none;
 
 #main {
  display: none;
-}
+ 
+ }    
 
+.sidenav {
+ display: none;
+    
 }
 
 
